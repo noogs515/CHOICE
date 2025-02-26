@@ -63,12 +63,6 @@ header{
     color:black;
 }
 
-.zoomedIn {
-    transform: scale(5); /* Slight zoom effect */
-    filter: blur(15px); /* Apply blur effect */
-    transition: transform 0.5s ease, filter 0.5s ease;
-}
-
 #topNav { 
     display: flex;
     justify-content: space-between;
