@@ -32,7 +32,10 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    transform: scale(1.1);
+    font-weight: bold;
+    transition: transform 0.2s ease, font-weight 0.2s ease;
 }
 
 li{
