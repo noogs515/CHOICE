@@ -16,5 +16,5 @@ window.addEventListener('scroll', function () {
 
 
 document.getElementById("apply").addEventListener("click", function() {
-    window.location.href = "Job Application/index.html";
+    window.location.href = "Job-Application/index.html";
 });
