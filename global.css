@@ -34,7 +34,7 @@ a {
 a:hover {
     text-decoration: none;
     transform: scale(1.1);
-    font-weight: bold;
+    font-weight: 900;
     transition: transform 0.2s ease, font-weight 0.2s ease;
 }
 
