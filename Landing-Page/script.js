@@ -4,7 +4,7 @@ window.addEventListener('scroll', function () {
     const bottomNav = document.getElementById('bottomNav');
     const description = document.getElementById('description');
 
-    if (window.scrollY > 100 && !scrolled) { // When scroll exceeds 100px and not already scrolled
+    if (window.scrollY > 80 && !scrolled) { // When scroll exceeds 100px and not already scrolled
         bottomNav.classList.add('fixedNav');  // Add fixedNav class to bottomNav
         description.scrollIntoView({ behavior: 'smooth' });  // Scroll smoothly to the description
         scrolled = true; // Set flag to true to prevent further jumps
